@@ -1,3 +1,4 @@
+
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
@@ -45,8 +46,6 @@ ax.set_title('Atrator de Lorenz', style='italic', color='black', fontsize=20, fo
 line, = ax.plot([], [], [], 'k-', lw=1.0)
 
 # Função de inicialização
-
-
 def init():
     line.set_data([], [])
     line.set_3d_properties([])
